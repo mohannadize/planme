@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Raph;
+    src: url(fonts/RaphLanokFuture.ttf);
+}
+@font-face {
+    font-family: Bariol;
+    src: url(fonts/bariol_regular-webfont.ttf);
+}
+
+body,html {
+    margin:0;
+}
+h1,h4 {
+    font-weight: 300;
+    margin-bottom:0;
+    margin-top: 5px; 
+}
+.plans {
+    /*margin-top:100px; */   
+    /*margin-left:80px; */
+    
+}
+.plans > .plan {
+    min-width: 220px;
+    max-width: 250px;
+    float:left;
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    background-color: #f7f7f7;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 15px;
+    border: 0px solid #848484;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px -2px rgba(0, 0, 0,0.15);
+    transition: all 250ms ease;
+    font-family: Bariol;
+}
+.plan.yellow {
+    background-color: #ffda66;
+    box-shadow: 0 5px 15px -2px rgba(255, 196, 15,0.4);
+}
+.plan.yellow:hover {
+    box-shadow: 0 10px 15px 1px rgba(255, 196, 15,.4);
+}
+.plan.cyan {
+    background-color: #f4f9fc;
+    box-shadow: 0 5px 15px -2px rgba(14,106,244,0.3);
+}
+.plan.cyan:hover {
+    box-shadow: 0 10px 15px 1px rgba(14,106,244,.3);
+}
+.plans > .plan:focus ,.plan:hover {
+    box-shadow: 0 10px 15px 1px rgba(0, 0, 0,.15);
+
+}
+.plans > .plan .name {
+    display: inline-block;
+    padding-left: 7px;
+    font-family: Raph;
+}
+.plans > .plan .price {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    margin-left: 20px;
+    text-align: right;
+    float: right;
+}
+.plans > .plan .price h4 {
+    font-size: 24px;
+    padding-top: 5px;
+}
+
+.plans > .plan .price span {
+    vertical-align: -5px;
+    font-size: 18px;
+}
+
+.plans > .plan .features ul {
+    list-style: none;
+    padding-left: 0;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.plans > .plan .features li {
+    position: relative;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.plans > .plan .select {
+    text-align: center;
+    padding-top: 10px;
+}
+.plans > .plan .select a {
+    text-decoration: none;
+    font-size:18px;
+    color:#888;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 2px 15px -3px rgba(0,0,0,.2);
+    transition: all 250ms ease;
+}
+.plans > .plan .select a:hover {
+    color:#555;
+    box-shadow:  0 4px 15px -3px rgba(0,0,0,.2);
+}
+.plan.yellow .select a {
+    color:#efc12d;
+    box-shadow:  0 2px 15px -3px rgba(255, 196, 15,.7);
+}
+.plan.yellow .select a:hover {
+    color:#c4990d;
+    box-shadow:  0 4px 15px -3px rgba(255, 196, 15,1);
+}
+.plan.cyan .select a {
+    color:#337ab7;
+    box-shadow:  0 2px 15px -3px rgba(65,130,226,.7);
+}
+.plan.cyan .select a:hover {
+    color:#194c77;
+    box-shadow:  0 4px 15px -3px rgba(65,130,226,1);
+}
