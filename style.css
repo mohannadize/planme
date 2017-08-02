@@ -102,6 +102,7 @@ h1,h4 {
 }
 .plans > .plan .select a {
     text-decoration: none;
+    cursor: pointer;
     font-size:18px;
     color:#888;
     padding-left: 20px;
