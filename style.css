@@ -27,7 +27,7 @@ h1,h4 {
     display: inline-block;
     margin-right: 15px;
     position: relative;
-    background-color: #f7f7f7;
+    background-color: #f4f4f4;
     padding-top: 5px;
     padding-bottom: 25px;
     padding-left: 15px;
@@ -41,13 +41,13 @@ h1,h4 {
 }
 .plan.yellow {
     background-color: #ffda66;
-    box-shadow: 0 5px 15px -2px rgba(255, 196, 15,0.4);
+    box-shadow: 0 5px 15px -2px rgba(178, 143, 33,0.6);
 }
 .plan.yellow:hover {
-    box-shadow: 0 10px 15px 1px rgba(255, 196, 15,.4);
+    box-shadow: 0 10px 15px 1px rgba(178, 143, 33,.6);
 }
 .plan.cyan {
-    background-color: #f4f9fc;
+    background-color: rgb(229, 237, 242);
     box-shadow: 0 5px 15px -2px rgba(14,106,244,0.3);
 }
 .plan.cyan:hover {
@@ -71,7 +71,7 @@ h1,h4 {
     float: right;
 }
 .plans > .plan .price small {
-    color: gray;
+    color: rgb(100,100,100);
 }
 .plans > .plan .price h4 {
     font-size: 24px;
@@ -122,11 +122,11 @@ h1,h4 {
     box-shadow:  0 4px 15px -3px rgba(0,0,0,.2);
 }
 .plan.yellow .select a {
-    color:#efc12d;
+    color:#c49a11;
     box-shadow:  0 2px 15px -3px rgba(255, 196, 15,.7);
 }
 .plan.yellow .select a:hover {
-    color:#c4990d;
+    color:#967406;
     box-shadow:  0 4px 15px -3px rgba(255, 196, 15,1);
 }
 .plan.cyan .select a {
